@@ -1,0 +1,34 @@
+src/*.exe
+src/ibtmaxcoin
+src/ibtmaxcoind
+src/test_ibtmaxcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.ibtmaxcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+ibtmaxcoin-qt
+IBTMaxcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+ibtmaxcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
